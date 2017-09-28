@@ -2,6 +2,7 @@ var files = [
   "index.html",
   "info.html",
   "gerar-cupom.html",
+  "login.html",
   "css/main.css",
   "icons/MaterialIcons-Regular.ttf",
   "icons/material.css",
@@ -25,7 +26,7 @@ if (typeof files == 'undefined') {
   files.push('./');
 }
 
-var CACHE_NAME = '2.0';
+var CACHE_NAME = 'axbeer5.0';
 
 self.addEventListener('activate', function(event) {
   console.log('[SW] Activate');
